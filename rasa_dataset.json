@@ -1,0 +1,181 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": ["Chinese", "Chines", "chines"]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": ["veggie", "vegg"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "howdy", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hey there",
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hello", 
+        "intent": "greet", 
+        "entities": []
+      }, 
+      {
+        "text": "hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bye", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "See you later", 
+        "intent": "goodbye", 
+        "entities": []
+      }, 
+      {
+        "text": "Goodbye", 
+        "intent": "goodbye", 
+        "entities": []
+      },
+      {
+        "text": "Thanks",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "Thank you",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "That's helpful",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "What hours are you open?",
+        "intent": "hours",
+        "entities": []
+      },
+      {
+        "text": "What are your hours?",
+        "intent": "hours",
+        "entities": []
+      },
+      {
+        "text": "When are you open?",
+        "intent": "hours",
+        "entities": []
+      },
+      {
+        "text": "great choice",
+        "intent": "hours",
+        "entities": []
+      },
+      {
+        "text": "Which mopeds do you have?",
+        "intent": "mopeds",
+        "entities": []
+      },
+      {
+        "text": "What kinds of mopeds are there?",
+        "intent": "mopeds",
+        "entities": []
+      },
+      {
+        "text": "What do you rent?",
+        "intent": "mopeds",
+        "entities": []
+      },
+      {
+        "text": "I am searching for a dinner spot",
+        "intent": "mopeds",
+        "entities": []
+      },
+      {
+        "text": "Do you take credit cards?",
+        "intent": "payments",
+        "entities": []
+      },
+      {
+        "text": "Are you cash only?",
+        "intent": "payments",
+        "entities": []
+      },
+      {
+        "text": "Are you open today?",
+        "intent": "opentoday",
+        "entities": []
+      },
+      {
+        "text": "Can we rent a moped?",
+        "intent": "rental",
+        "entities": []
+      },
+      {
+        "text": "How does this work?",
+        "intent": "rental",
+        "entities": []
+      },
+      {
+        "text": "I'd like to rent a moped",
+        "intent": "rental",
+        "entities": []
+      },
+      {
+        "text": "today",
+        "intent": "today",
+        "entities": []
+      },
+      {
+        "text": "yes today",
+        "intent": "today",
+        "entities": []
+      },
+      {
+        "text": "no later",
+        "intent": "today",
+        "entities": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "dear sir"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "That's helpful"
+      },
+      {
+        "intent": "hours",
+        "text": "What hours are you open?"
+      },
+      {
+        "intent": "hours",
+        "text": "What are your hours?"
+      },
+      {
+        "intent": "hours",
+        "text": "When are you open?"
+      },
+      {
+        "intent": "hours",
+        "text": "great choice"
+      },
+      {
+        "intent": "mopeds",
+        "text": "Which mopeds do you have?"
+      },
+      {
+        "intent": "mopeds",
+        "text": "What kinds of mopeds are there?"
+      },
+      {
+        "intent": "mopeds",
+        "text": "What do you rent?"
+      },
+      {
+        "intent": "mopeds",
+        "text": "I am searching for a dinner spot"
+      },
+      {
+        "intent": "payments",
+        "text": "Do you take credit cards?"
+      },
+      {
+        "intent": "payments",
+        "text": "Are you cash only?"
+      },
+      {
+        "intent": "opentoday",
+        "text": "Are you open today?"
+      },
+      {
+        "intent": "rental",
+        "text": "Can we rent a moped?"
+      },
+      {
+        "intent": "rental",
+        "text": "How does this work?"
+      },
+      {
+        "intent": "rental",
+        "text": "I'd like to rent a moped"
+      },
+      {
+        "intent": "today",
+        "text": "today"
+      },
+      {
+        "intent": "today",
+        "text": "yes today"
+      },
+      {
+        "intent": "today",
+        "text": "no later"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      },
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      }
+    ],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "chinese",
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
+      }
+    ]
+  }
+}
